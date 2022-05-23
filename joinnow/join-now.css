@@ -1,0 +1,40 @@
+main{
+    position: relative;
+}
+
+h2{
+    color: rgba(255, 41, 41, 0.7);
+    text-align: center;
+}
+
+form{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+
+.title{
+    color: #0e4f1f;
+}
+
+.text{
+    color: black;
+    font-weight: bold;
+}
+
+.red{
+    background-color: rgba(255, 41, 41, 0.7);
+    width: 300px;
+}
+.sign-up{
+    background-color: #0e4f1f;
+    color: #ffffff;
+}
+.terms{
+    font-weight: bolder;
+}
+.select{
+    width: 300px;
+    background-color: rgba(213, 255, 220, 0.9);
+}

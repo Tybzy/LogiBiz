@@ -1,74 +1,27 @@
 *{
     box-sizing: border-box;
+    margin: 0;
 }
 
 body{
     margin: 0;
 }
-
-.main-header{
-    background-color: #2ddf5c;
-    width: 100%;
-    padding: 15px 10px;
-}
-
-.main-header > div{
-    display: inline-block;
-    vertical-align: middle;
-}
-
-.brand-logo{
-    text-decoration: none;
-    color: #0e4f1f;
-    font-size: 32px;
-    font-weight: bold;
-}
-
-.main-nav{
-    display: inline-block;
-    vertical-align: middle;
-    width: calc(100% - 117px);
-}
-
-.main-nav-links{
-    padding: 0;
-    list-style: none;
-    text-align: right;
-}
-.main-nav-link{
-    display: inline-block;
-    margin: 0px 16px;
-}
+/* styling for header */
 
 
-.main-nav-link > a{
-    text-decoration: none;
-    color: #0e4f1f;
-}
-
-.main-nav-link-cta >a{
-    color: white;
-    background-color: rgb(255, 0, 0);
-    padding: 16px 16px;
-    border-radius: 16px;
-}
-
-.main-nav-link > a:hover{
-    color: #ffffff;
-    border-bottom: 2px #ffffff  solid;
-}
-
-.main-nav-link-cta >a:hover{
-    color: red;
-    background-color: white;
-    border: none;
-}
+/* styling for packages*/
 
 .overview{
+    background-image: url(img/background\ image.jpeg);
+    box-sizing: border-box;
+    height: 1000px;
     background-color: rgba(255, 41, 41, 0.7);
-    height: 480px;
+    height: 1000px;
     color: #ffffff;
     padding: 16px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .overview >h1{

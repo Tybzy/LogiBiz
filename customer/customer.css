@@ -1,0 +1,55 @@
+section{
+    width: 80%;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section h1{
+    color: red;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+section span{
+    color: gray;
+}
+
+.image{
+    width: 80%;
+}
+.image img{
+    width: 80%;
+    height: 100%;
+}
+
+.text{
+    width: 15%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+}
+
+.text p{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.text-1{
+    margin-left: 0;
+    display: inline-block;
+}
+
+
+.left{
+    margin-top: 70px;
+}
+
+.right{
+    float: right;
+    text-align: left;
+    position: relative;
+}
+.clearfix{
+    clear: both;
+}
