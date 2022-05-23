@@ -1,5 +1,5 @@
 section{
-    width: 80%;
+    width: 100%;
     margin-top: 80px;
     display: flex;
     justify-content: space-between;
@@ -50,6 +50,7 @@ section span{
     text-align: left;
     position: relative;
 }
+
 .clearfix{
     clear: both;
 }
