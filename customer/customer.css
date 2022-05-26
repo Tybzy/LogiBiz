@@ -51,3 +51,24 @@ section span{
 .left{
     margin-top: 70px;
 }
+
+@media (max-width: 40rem){
+    .overview{
+        height: 50vh;
+    }
+    .brand-logo{
+        width: 15%;
+    }
+    ul{
+        display: block;
+        white-space: nowrap;
+        margin: 0 auto;
+    }
+    .text{
+        width: 50%;
+        height: 25rem;
+    }
+    .image{
+        width: 30rem;
+    }
+}

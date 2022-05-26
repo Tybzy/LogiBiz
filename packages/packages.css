@@ -75,3 +75,18 @@ main{
     background-color: red;
     padding: 8px;
 }
+
+@media (max-width: 40rem){
+    .overview{
+        height: 50vh;
+    }
+    ul{
+        display: block;
+        white-space: nowrap;
+    }
+    .packages{
+        display: block;
+        width: 100%;
+        margin: 16px 0;
+    }
+}

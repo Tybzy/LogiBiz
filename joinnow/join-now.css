@@ -38,3 +38,13 @@ form{
     width: 300px;
     background-color: rgba(213, 255, 220, 0.9);
 }
+
+@media (max-width: 40rem){
+    .overview{
+        height: 50vh;
+    }
+    ul{
+        display: block;
+        white-space: nowrap;
+    }
+}

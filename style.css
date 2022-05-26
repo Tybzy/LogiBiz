@@ -124,3 +124,25 @@ button:hover{
     size: 12px;
     background-color: pink;
 }
+@media (max-width: 40rem){
+    .overview{
+        height: 50vh;
+    }
+    ul{
+        display: block;
+        white-space: nowrap;
+    }
+    .plan{
+        display: block;
+        width: 100%;
+        margin: 16px 0;
+    }
+    .plan-highlighted{
+        box-shadow: none;
+    }
+    .key-feature{
+        display: block;
+        width: 100%;
+        margin: 24px 0;
+    }
+}
