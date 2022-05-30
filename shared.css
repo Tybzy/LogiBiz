@@ -41,6 +41,9 @@
     text-decoration: none;
     color: #0e4f1f;
 }
+.main-nav-link-cta{
+    animation: wiggle 200ms ease-in 1s 8 alternate-reverse;
+}
 
 .main-nav-link-cta >a{
     color: white;
@@ -65,4 +68,25 @@ footer{
     color: #ffffff;
     padding: 16px 0;
     text-align: center;
+}
+@media(max-width: 600px),(min-width: 600px) and (max-width: 900px){
+    .main-header{
+        display: block;
+        white-space: nowrap;
+        justify-content: space-around;
+        margin-right: 2rem;
+    }
+    .main-nav-link{
+        text-align: left;
+        justify-content: space-evenly;
+    }
+}
+
+@keyframes wiggle{
+    from{
+        transform: rotateZ(0);
+    }
+    to{
+        transform: rotateZ(10deg);
+    }
 }

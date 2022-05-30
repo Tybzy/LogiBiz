@@ -36,7 +36,7 @@ main{
 }
 
 .package:hover{
-    border: red;
+    border-color: red;
     box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.5);
 }
 
@@ -58,6 +58,10 @@ main{
     border-left: 4px solid #0e4f1f;
     text-align: right;
     position: relative;
+    overflow: hidden;
+    transform: translate(1px);
+    opacity: 0.7;
+    transition: all 500ms ease-in-out 1s;
 }
 
 .clearfix{
@@ -66,6 +70,8 @@ main{
 
 #plus:hover{
     border-left-color: red;
+    transform: translate(-3rem);
+    opacity: 0.95;
 }
 
 .recommended{
@@ -74,19 +80,28 @@ main{
     color: #ffffff;
     background-color: red;
     padding: 8px;
+    transform: rotate(-45deg) translate(-4rem, -1rem); 
+
+    width: 16rem;
+    text-align: center;
 }
 
-@media (max-width: 40rem){
+@media (max-width: 20rem){
     .overview{
         height: 50vh;
     }
     ul{
         display: block;
+        margin: 0;
+        padding: 0;
         white-space: nowrap;
     }
     .packages{
         display: block;
         width: 100%;
         margin: 16px 0;
+    }
+    .recommended{
+        margin-top: 0;
     }
 }

@@ -1,3 +1,5 @@
+
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -124,14 +126,11 @@ button:hover{
     size: 12px;
     background-color: pink;
 }
-@media (max-width: 40rem){
+@media (max-width: 600px){
     .overview{
         height: 50vh;
     }
-    ul{
-        display: block;
-        white-space: nowrap;
-    }
+    
     .plan{
         display: block;
         width: 100%;
